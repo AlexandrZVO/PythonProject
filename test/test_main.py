@@ -2,7 +2,9 @@ from typing import Iterator
 
 import pytest
 
-from src.main import Category, Product
+from src.product import Product
+
+from src.category import Category
 
 
 @pytest.fixture(autouse=True)
